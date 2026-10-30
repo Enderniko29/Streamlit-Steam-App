@@ -2,7 +2,7 @@ import streamlit as st
 import plotly.graph_objects as go
 import requests
 
-st.title("Streamlit Data App")
+st.title("Steam Data App")
 steam_key = st.secrets["STEAM_API_KEY"]
 steam_id = st.secrets["STEAM_ID"]
 
