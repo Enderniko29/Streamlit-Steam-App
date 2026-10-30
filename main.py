@@ -135,7 +135,7 @@ with overview:
                     )
                     total_hours = total_minutes / 60
                     total_days = total_hours / 24
-                    total_years = days / 365
+                    total_years = total_days / 365
                 except requests.exceptions.RequestException:
                     pass
                 st.info(f"{player_name} has played for a total of {total_hours} hours / {total_days:.0f} days / {total_years:.0f} years")
